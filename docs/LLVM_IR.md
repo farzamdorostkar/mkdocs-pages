@@ -7,6 +7,8 @@ The public member function `Value* getPointerOperand ()` is a wrapper function f
 Value *getPointerOperand() { return getOperand(1); }
 ```
 
+> The first class types are perhaps the most important. Values of these types are the only ones which can be produced by instructions.
+
 
 ## Static Value-Flow Analysis Framework (SVF)
 
